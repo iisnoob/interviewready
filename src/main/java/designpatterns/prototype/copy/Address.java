@@ -6,4 +6,8 @@ public class Address {
     public Address(String city) {
         this.city = city;
     }
+
+    public Address(Address other) {
+        this.city = other.city;
+    }
 }

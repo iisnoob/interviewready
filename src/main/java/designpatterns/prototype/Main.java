@@ -23,5 +23,13 @@ public class Main {
         System.out.println(user1.name + ", " + user1.address.city);
         System.out.println(user3.name + ", " + user3.address.city);
 
+        // Deep copy using copy constructor
+        User user4 = new User(
+                user3.name,
+                new Address(user1.address)
+        );
+
+        System.out.println(user4.name + ", " + user4.address.city);
+
     }
 }
