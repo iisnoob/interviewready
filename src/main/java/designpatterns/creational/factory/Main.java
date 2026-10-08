@@ -7,5 +7,8 @@ public class Main {
 
         NotificationFactory email = new EmailNotificationFactory();
         email.createNotification().send();
+
+        NotificationFactory push = new PushNotificationFactory();
+        push.createNotification().send();
     }
 }
