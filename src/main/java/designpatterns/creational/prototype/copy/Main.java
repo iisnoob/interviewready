@@ -1,7 +1,4 @@
-package designpatterns.creational.prototype;
-
-import designpatterns.creational.prototype.copy.Address;
-import designpatterns.creational.prototype.copy.User;
+package designpatterns.creational.prototype.copy;
 
 public class Main {
     public static void main(String[] args) {
